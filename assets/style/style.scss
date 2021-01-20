@@ -22,7 +22,9 @@
     
 }
 .header-area.is-sticky{
+
   position: fixed;
+  
   width: 100%;
   height: var(--header-height);
   background-color: #190369;
@@ -40,7 +42,7 @@
   width: 40%;
 }
 .header-area .container .logo-area .brand {
-color: var(--white);
+color: #fff;
 text-decoration: none;
 font-size: 30px;
 }
@@ -214,10 +216,13 @@ transition: .4s;
   padding: 0 15px;
 }
 .header-area .container .logo-area .brand{
-  color: var(--black);
+  color:rgb(0, 0, 0) ;
 }
 
+.is-sticky .container .logo-area .brand{
+  color: #fff !important;
 
+}
 
 .header-area .container .logo-area .humbarger-box{
   width: 35px;
